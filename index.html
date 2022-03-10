@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+        <script src="./resources/js/script.js"></script>
+        <title>Teo Abaza</title>
+    </head>
+
+    <body onload="animateHTML()">
+        <header>
+            <img src="./resources/images/backgr-logo-red.png" id="backgr-logo-red"/>
+            <nav class="menu-main-menu-container">
+                <ul class="menu-main-menu">
+                    <li><a href="#" id="home">Home</a></li>
+                    <li><a href="#" id="about">About me</a></li>
+                    <li><a href="#" id="portfolio">Portfolio</a></li>
+                    <li><a href="#" id="contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="bannertext">
+                <h5>Teo Abaza</h5>
+                <h6>Product Designer</h6>
+                <h1>Hello World! I’m <span id="Teo" onmouseover="changeColor('Teo')" onclick="changeColor('Teo')">Teo</span>. <br> I'm a graphic and web designer based in Sheffield, UK. </h1>
+            </div>
+        </header>
+
+        <main>
+            <img src="./resources/images/teo-pic1.png" id="teo-pic1"/>
+            <section class="services-section">
+                <div class="red-services-container">
+                    <h1 id="services-title">My services</h1>
+                    <div class="red-services">
+                        <div class="services-box-1">
+                            <img src="./resources/images/responsiveness.png" id="services-box-1"/>
+                            <p>a fully responsive and accessible websites</p>
+                        </div>
+                        <div class="services-box-2">
+                            <img src="./resources/images/creativedesign.png" id="services-box-2"/>
+                            <p>creative design and unique illustrations</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="white-services-container">
+                    <div class="white-services">
+                        <div class="services-box-3">
+                            <img src="./resources/images/photoediting.png" id="services-box-3"/>
+                            <p>professional photo and video editing</p>
+                        </div>
+                        <div class="services-box-4">
+                            <img src="./resources/images/contentwriting.png" id="services-box-4"/>
+                            <p>help with content writing and proofreading</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <h3 id="hire-me-title">Why you should hire me for your project</h3>
+
+            <section class="hire-me-section">
+                <div class="yellow-hire-me-container">
+                    <p id="hire-me-p-yellow">I may not be a big web design agency, but that's exactly why building your website with me will be <span id="personal-fun-experience"> a more personal and fun experience</span>. My mission is to be clear, upfront and understandble so that you don’t get lost in the buzz words and jargon.</p>
+                    <button id="rotating-button">Hire me</button>
+                </div>
+                <div class="white-hire-me-container">
+                    <p id="hire-me-p-white">When I work on a project, I always take time to research the company I design for. This helps me create unique websites and powerful marketing strategies that <span id="connect-business-clients">connect your business with new clients.</span></p>
+                </div>
+            </section>
+
+            <img src="./resources/images/teo-pic2.png" id="teo-pic2"/>
+            <section class="projects-section">
+                <h1 id="projects-title">My projects</h1>
+                <div class="project1">
+                    <img src="./resources/images/project1.PNG" id="project1-img" class="hidden"/>
+                    <img src="./resources/images/project1mobile.PNG" id="project1-img-mobile" class="hidden"/>
+                </div>
+                <div class="project2">
+                    <img src="./resources/images/project2.PNG" id="project2-img" class="hidden"/>
+                    <img src="./resources/images/project2mobile.PNG" id="project2-img-mobile" class="hidden"/>
+                </div>
+                <div class="project3">
+                    <img src="./resources/images/project3.PNG" id="project3-img" class="hidden"/>
+                    <img src="./resources/images/project3mobile.PNG" id="project3-img-mobile" class="hidden"/>
+                </div>
+                <button id="see-more-button">See more</button>
+            </section>
+
+            <section class="skills-section">
+                <div id="skills-title-wrapper"><h1 id="skills-title">My skills</h1></div>
+                <div class="skills-boxes">
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="./resources/images/skills/icons8-html-5-150.png" id="html-skill"/>
+                        </div>
+                        <div class="flip-box-back">
+                            <p class="flip-box-back-text">HTML5</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="./resources/images/skills/icons8-css3-150.png" id="css-skill"/>
+                        </div>
+                        <div class="flip-box-back">
+                            <p class="flip-box-back-text">CSS3</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="./resources/images/skills/icons8-javascript-logo-150.png" id="js-skill"/>
+                        </div>
+                        <div class="flip-box-back">
+                            <p class="flip-box-back-text">JavaScript</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="./resources/images/skills/icons8-adobe-photoshop-150.png" id="photoshop-skill"/>
+                        </div>
+                        <div class="flip-box-back">
+                            <p class="flip-box-back-text">Adobe Photoshop</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="./resources/images/skills/icons8-adobe-illustrator-150.png" id="illustrator-skill"/>
+                        </div>
+                        <div class="flip-box-back">
+                            <p class="flip-box-back-text">Adobe Illustrator</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="./resources/images/skills/icons8-adobe-indesign-150.png" id="indesign-skill"/>
+                        </div>
+                        <div class="flip-box-back">
+                            <p class="flip-box-back-text">Adobe InDesign</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="./resources/images/skills/icons8-adobe-premiere-pro-150.png" id="premierepro-skill"/>
+                        </div>
+                        <div class="flip-box-back">
+                            <p class="flip-box-back-text">Adobe Premiere Pro</p>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="skills-boxes">
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="./resources/images/skills/icons8-python-150.png" id="python-skill"/>
+                        </div>
+                        <div class="flip-box-back">
+                            <p class="flip-box-back-text">Pyhton 3.0</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="./resources/images/skills/icons8-git-150.png" id="git-skill"/>
+                        </div>
+                        <div class="flip-box-back">
+                            <p class="flip-box-back-text">Git Version Control</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="./resources/images/skills/icons8-figma-150.png" id="figma-skill"/>
+                        </div>
+                        <div class="flip-box-back">
+                            <p class="flip-box-back-text">Figma</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="./resources/images/skills/icons8-wordpress-150.png" id="wordpress-skill"/>
+                        </div>
+                        <div class="flip-box-back">
+                            <p class="flip-box-back-text">Wordpress</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="./resources/images/skills/icons8-react-native-150.png" id="react-skill"/>
+                        </div>
+                        <div class="flip-box-back">
+                            <p class="flip-box-back-text">React Js</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="./resources/images/skills/icons8-redux-150.png" id="redux-skill"/>
+                        </div>
+                        <div class="flip-box-back">
+                            <p class="flip-box-back-text">Redux</p>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+                <img src="./resources/images/backgr-logo-yellow.png" id="backgr-logo-yellow"/>
+            </section>
+            
+        </main>
+
+        <footer>
+            <div class="footer-text">
+                 <p id="thanks-for-visiting">Thank you <br/> for visiting my website!</p>
+                <div class="get-in-touch">
+                    <p id="get-in-touch">Get in touch:</p>
+                    <input type="text" value="teodoraabaza@gmail.com" id="myEmail">
+                    <div class="copy-me-button">
+                        <img src="./resources/images/cursor.png" id="cursor"/>
+                        <button id="copy-email" onclick="copyToClipboard()">Copy email</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-social-media">
+                <div class="social-media-icons">
+                    <img src="./resources/images/socialmedia/icons8-facebook-250.png" id="fb-icon"/>
+                    <img src="./resources/images/socialmedia/icons8-linkedin-250.png" id="linkedin-icon"/>
+                    <img src="./resources/images/socialmedia/icons8-instagram-250.png" id="insta-icon"/>
+                    <img src="./resources/images/socialmedia/icons8-twitter-circled-250.png" id="twitter-icon"/>
+                    <img src="./resources/images/socialmedia/icons8-github-250.png" id="github-icon"/>
+                </div>
+                <p id="designed-by-teo">2022 | Designed by Teo with &#9825;</p>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
